@@ -1,8 +1,3 @@
-body{
-    margin-left: 10%;
-    margin-right: 10%;
-}
-
 #logo-header{
     width: 200px;
     height: auto;
@@ -15,12 +10,16 @@ body{
     position: relative;
 }
 
+figure{
+    margin: 0%;
+}
+
 header{
     background-image: url(../img/pattern.png);
     height: 100px;
     max-width: 100%;
     background-color: #4ea0ff;
-    scale: 1.5;
+    background-size: auto 200%;
 }
 
 .the-booleaner{
@@ -29,11 +28,16 @@ header{
 
 table{
     text-align: left;
+    border-collapse: collapse;
 }
 
 #thead-set{
     background-color: #20a9e5;
     color: white;
+}
+
+.colonna-25{
+    width: 25%;
 }
 
 .tbody-set{
