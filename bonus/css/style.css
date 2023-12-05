@@ -1,0 +1,68 @@
+header{
+    background-image: url(../img/pattern.png);
+    height: 100px;
+    max-width: 100%;
+    background-color: #4ea0ff;
+    background-size: auto 200%;
+}
+
+#logo-header{
+    width: 200px;
+    height: auto;
+    position: absolute;
+    top: 50px;
+    padding-left: 15%;
+}
+
+.img-header{
+    position: relative;
+}
+
+main{
+    margin-left: 15%;
+    margin-right: 15%;
+}
+
+figure{
+    margin: 0%;
+}
+
+.the-booleaner{
+    color: blue;
+}
+
+table{
+    text-align: left;
+    border-collapse: collapse;
+}
+
+#thead-set{
+    background-color: #20a9e5;
+    color: white;
+}
+
+.colonna-25{
+    width: 25%;
+}
+
+.tbody-set{
+    background-color: #b1e5f2;
+    color: black;
+}
+
+.foto-testo{
+    position: relative; 
+    display: inline-block;
+}
+
+.overlay{
+    position: absolute;
+    top: 5%; 
+    left: 30%; 
+    transform: translate(-50%, -50%); 
+    text-align: left; 
+    color: white; 
+    font-size: 22px; 
+    font-weight: bold;  
+    padding: 20px;
+}
